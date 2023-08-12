@@ -1,0 +1,6 @@
+- [Getting Started](/read/getting-started.md)
+- [Contiguity CLI](/read/cli.md)
+- [JavaScript SDK](/read/js.md)
+- [Python SDK](/read/py.md)
+- [API Reference](/read/api.md)
+- [Playground](/read/playground.md)
