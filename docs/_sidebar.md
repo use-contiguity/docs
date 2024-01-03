@@ -6,6 +6,8 @@
 - <br/>
 - [API Reference](/api-reference/)
 - <br/>
+- [CLI](/cli/)
+- <br/>
 - [Docs by Product](/product/)
   - [Text](/product/text/)
   - [Email](/product/email/)
