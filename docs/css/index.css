@@ -1,0 +1,129 @@
+* {
+    --base-font-family: 'Inter', sans-serif;
+}
+
+.cc-container {
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.cc-product {
+    color: black;
+    width: 300px;
+    height: auto;
+    min-height: 200px;
+    border-radius: 5px;
+    background-color: var(--mono-tint1);
+}
+
+.cc-product-bar {
+    cursor: pointer;
+    text-decoration: none !important;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px 5px 0px 0px;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: normal;
+}
+
+.cc-icon {
+    color: black;
+    font-size: 20px;
+}
+
+/* thank you <company> */
+.http-method {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+    padding: 2px 4px 2px 4px;
+    height: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.POST {
+    color: rgb(0, 200, 255);
+    background-color: rgba(0, 81, 255, 0.5);
+}
+
+.GET {
+    color: rgb(0, 255, 0);
+    background-color: rgba(0, 128, 0, 0.5);
+}
+
+.DEL {
+    color: rgb(255, 0, 0);
+    background-color: rgba(156, 0, 0, 0.5);
+}
+
+.WS {
+    color: rgb(255, 255, 0);
+    background-color: rgba(191, 198, 0, 0.5);
+}
+
+
+/* MODIFYING STYLES FROM DOCSIFY */
+.app-name {
+    text-align: left !important;
+    font-size: 20px !important;
+}
+
+.github-corner {
+    display: none !important;
+}
+
+.input-wrap {
+    border: none !important;
+}
+
+.sidebar-nav a {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-nav li>a.section-link:hover {
+    background-color: #242424;
+    text-decoration: none !important;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background-color 0.2s;
+    font-weight: normal !important;
+}
+
+.sidebar-nav li>a.section-link {
+    margin: 5px 0px 5px 0px;
+}
+
+.sidebar-nav li>a:hover {
+    text-decoration: none !important;
+    font-weight: bold !important;
+    transition: font-weight 0.2s;
+}
+
+.sidebar-nav li.active>a.section-link {
+    font-weight: normal !important;
+    background-color: #242424 !important;
+    text-decoration: none !important;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: none !important;
+}
+
+.sidebar-nav li {
+    padding-left: 10px !important;
+}

@@ -1,6 +1,13 @@
-- [Getting Started](/read/getting-started.md)
-- [Contiguity CLI](/read/cli.md)
-- [JavaScript SDK](/read/js.md)
-- [Python SDK](/read/py.md)
-- [API Reference](/read/api.md)
-- [Playground](/read/playground.md)
+- [Overview](/)
+- <br/>
+- [Docs by Language](/language/)
+  - [JavaScript](https://github.com/use-contiguity/javascript)
+  - [Python](https://github.com/use-contiguity/javascript)
+- <br/>
+- [API Reference](/api-reference/)
+- <br/>
+- [Docs by Product](/product/)
+  - [Text](/product/text/)
+  - [Email](/product/email/)
+  - [Identity](/product/identity/)
+- <br/>

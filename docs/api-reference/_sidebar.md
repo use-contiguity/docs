@@ -1,0 +1,36 @@
+- [Introduction](/api-reference/)
+- <br/>
+- [API Reference]()
+  - <b>Text</b>
+  - <a href="#/api-reference/text/send" title="Contiguity Docs | Send text"><span class="http-method POST">POST</span>Send text</a>
+  - <a href="#/api-reference/text/get" title="Contiguity Docs | Get text"><span class="http-method GET">GET</span>Get text</a>
+  - <br/>
+  - <b>OTP</b>
+  - <a href="#/api-reference/otp/send" title="Contiguity Docs | Send OTP"><span class="http-method POST">POST</span>Send OTP</a>
+  - <a href="#/api-reference/otp/resend" title="Contiguity Docs | Resend OTP"><span class="http-method POST">POST</span>Resend OTP</a>
+  - <a href="#/api-reference/otp/verify" title="Contiguity Docs | Verify OTP"><span class="http-method POST">POST</span>Verify OTP</a>
+  - <br/>
+  - <b>Email</b>
+  - <a href="#/api-reference/email/send" title="Contiguity Docs | Send emaile"><span class="http-method POST">POST</span>Send email</a>
+  - <a href="#/api-reference/email/get" title="Contiguity Docs | Get email"><span class="http-method GET">GET</span>Get email</a>
+  - <br/>
+  - <b>Identity</b>
+  - <a href="#/api-reference/identity/ip" title="Contiguity Docs | Verify IP"><span class="http-method POST">POST</span>Verify IP</a>
+  - <a href="#/api-reference/identity/number" title="Contiguity Docs | Verify number"><span class="http-method POST">POST</span>Verify Phone</a>
+  - <a href="#/api-reference/identity/scan-id-doc" title="Contiguity Docs | Verify ID Document"><span class="http-method POST">POST</span>Verify ID doc.</a>
+  - <br/>
+  - <b>Call</b>
+  - <a href="#/api-reference/call/start" title="Contiguity Docs | Start call"><span class="http-method POST">POST</span>Start call</a>
+  - <a href="#/api-reference/call/end" title="Contiguity Docs | End call"><span class="http-method POST">POST</span>End call</a>
+  - <a href="#/api-reference/call/websocket" title="Contiguity Docs | WebSocket"><span class="http-method WS">WS</span>Listen/Speak</a>
+  - <br/>
+  - <b>Compliance</b>
+  - <a href="#/api-reference/compliance/secret" title="API Reference"><span class="http-method POST">POST</span>Endpoint</a>
+  - <a href="#/api-reference/compliance/secret" title="API Reference"><span class="http-method GET">GET</span>Endpoint</a>
+  - <a href="#/api-reference/compliance/secret" title="API Reference"><span class="http-method DEL">DEL</span>Endpoint</a>
+  - <br/>
+  - <b>Form</b>
+  - <a href="#/api-reference/form/secret" title="API Reference"><span class="http-method POST">POST</span>Endpoint</a>
+  - <a href="#/api-reference/form/secret" title="API Reference"><span class="http-method GET">GET</span>Endpoint</a>
+  - <a href="#/api-reference/form/secret" title="API Reference"><span class="http-method DEL">DEL</span>Endpoint</a>
+  - <br/>

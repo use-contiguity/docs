@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contiguity Docs</title>
+    <title>Contiguity | Developer Documentation</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Contiguity's official documentation for our API & SDKs">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+    <meta name="description" content="Contiguity's official documentation for our API & SDKs"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" />
-    <link rel="stylesheet" href="css/prism-atom-dark.css">
+    <link rel="stylesheet" href="css/prism-atom-dark.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <style>
         :root {
@@ -17,6 +19,11 @@
             --mono-hue: 0;
             --mono-saturation: 0%;
             --code-font-size: 14px;
+
+            --base-color: white;
+            --base-background-color: #000000;
+            --sidebar-background: #000000;
+            --search-input-background-color: #000000;
         }
     </style>
 
@@ -26,19 +33,24 @@
     <div id="app"></div>
     <script>
         window.$docsify = {
-            name: 'Contiguity',
+            name: '<b>Contiguity</b> | Developer',
             repo: 'contiguity/docs',
             loadSidebar: true,
             auto2top: true,
             loadNavbar: true,
             maxLevel: 3,
-            subMaxLevel: 3,
+            subMaxLevel: 2,
             nativeEmoji: true,
-            logo: 'images/text-white.png',
+
             themeColor: "#FFFFFF",
 
             tabs: {
                 theme: 'material' // default
+            },
+
+            themeable: {
+                readyTransition: true, // default
+                responsiveTables: true
             }
         }
     </script>
@@ -53,7 +65,9 @@
     <script src="https://unpkg.com/docsify-copy-code"></script>
     <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-python.min.js"></script>
-    <<script src="https://unpkg.com/docsify/lib/plugins/search.js"></script> 
+    <script src="https://unpkg.com/docsify/lib/plugins/search.js"></script> 
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </body>
 
 </html>
